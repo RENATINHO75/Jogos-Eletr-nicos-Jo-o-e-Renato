@@ -39,5 +39,5 @@ body {
  .categoria-videos {
    display: flex;
    overflow-y: auto;
-   gap: 15px;
+   gap: 5px;
  }
