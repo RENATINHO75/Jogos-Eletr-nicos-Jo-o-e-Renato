@@ -33,5 +33,11 @@ body {
  }
 
  img{
-   height: 180px;
+   height: 250px;
+ }
+
+ .categoria-videos {
+   display: flex;
+   overflow-y: auto;
+   gap: 15px;
  }
