@@ -13,7 +13,7 @@ body {
     color: rgb(0, 79, 183);
  }
 
- section {
+ .chamada {
     background: rgb(84, 115, 124);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -39,5 +39,10 @@ body {
  .categoria-videos {
    display: flex;
    overflow-y: auto;
-   gap: 5px;
+   gap: 10px;
+ }
+
+ .categoria {
+   padding-left: 20px;
+   padding-right: 20px;
  }
