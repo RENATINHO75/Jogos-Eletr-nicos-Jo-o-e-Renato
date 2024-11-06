@@ -3,6 +3,7 @@ body {
     background: rgb(140, 140, 140);
     margin: 5px;
     font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 100px;
 
 }
 
@@ -41,6 +42,8 @@ body {
  .categoria {
    padding-left: 20px;
    padding-right: 20px;
+   margin-top: 50px;
+   
  }
  .categoria-videos img{
   opacity: 0.5;
@@ -48,5 +51,8 @@ body {
  }
   .categoria-videos img:hover{
     opacity: 1.0;
-    border: 1px solid green;
+    border: 3px solid green;
+  }
+  .categoria h2{
+    color: rgb(0, 79, 183);
   }
