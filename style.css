@@ -32,10 +32,6 @@ body {
    font-size: 22px;
  }
 
- img{
-   height: 250px;
- }
-
  .categoria-videos {
    display: flex;
    overflow-y: auto;
@@ -46,3 +42,10 @@ body {
    padding-left: 20px;
    padding-right: 20px;
  }
+ .categoria-videos img{
+  opacity: 0.5;
+  height: 250px;
+ }
+  .categoria-videos img:hover{
+    opacity: 1.0;
+  }
